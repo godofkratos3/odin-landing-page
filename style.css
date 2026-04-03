@@ -1,34 +1,40 @@
 
-h1 {
-    color: red;
-}
-
-div .one {
+.flex-container {
     display: flex;
-    border: 4px white;
     flex-direction: column;
-    background-color: #1f2837;
+    background: red;
 }
 
-.two {
-    display: flex;
-    background-color: blue;
+.flex-container .one {
+    background: #1f2937;
+    height: 100px;
+    flex: 1 1 auto;   
 }
 
-.three {
-    display: flex;
-    background-color: #e5e7eb;
-}
-
-div .header {
-    
-    color: red;
-    flex-direction: row;
-    background-color: #1f2837;
-}
-
-.hero {
-    font-size: 48px;
+.Logo {
     color: #f9faf8;
-    font-weight: 900;
+    font-size: 24px;
+}
+
+.flex-container .two {
+    background: white;
+    height: 100px;
+    flex: 1 1 auto;
+}
+
+.flex-container .three {
+    background: #e5e7eb;
+    height: 100px;
+    flex: 1 1 auto;
+}
+
+.flex-container .four {
+    background: white;
+    height:100px;
+    flex: 1 1 auto;
+}
+
+.flex-container .one .header {
+    flex-direction: row;
+    color: ;
 }
