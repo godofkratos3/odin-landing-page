@@ -6,20 +6,77 @@
 }
 
 .flex-container .one {
+    display: flex;
     background: #1f2937;
     height: 100px;
-    flex: 1 1 auto;   
+    flex: 1;
+    
+    
 }
 
-.flex-container.one.Logo {
-    color: #f9faf8;
-    font-size: 24px;
+
+.flex-container .one .left {
+    background-color: #1f2937;
+    margin-left: 250px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
 }
+
+.hero-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.lorem {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.button {
+    background-color: blue;
+    color:white
+    
+}
+
+.link {
+    color: #e5e7eb
+}
+
+
+.flex-container .one .left h3 {
+    font-size: 18px;
+    color: #f9faf8
+    
+}
+
+.flex-container .one .right {
+    text-align: center;
+    margin-right: 250px;
+    
+}
+
+
+
+.flex-container .one .right {
+    background-color: #1f2937   ;
+    flex: 1;
+
+}
+
 
 .flex-container .two {
     background: white;
     height: 100px;
     flex: 1 1 auto;
+}
+
+.two h1 {
+    font-size: 36px;
+    color : #1f2937;
+    font-weight: 900;
 }
 
 .flex-container .three {
@@ -34,7 +91,16 @@
     flex: 1 1 auto;
 }
 
-.flex-container .one .header {
-    flex-direction: row;
-    color: ;
-}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
