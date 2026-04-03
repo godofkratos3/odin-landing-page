@@ -11,7 +11,7 @@
     flex: 1 1 auto;   
 }
 
-.Logo {
+.flex-container.one.Logo {
     color: #f9faf8;
     font-size: 24px;
 }
