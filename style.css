@@ -2,7 +2,6 @@
 .flex-container {
     display: flex;
     flex-direction: column;
-    background: red;
 }
 
 .flex-container .one {
@@ -70,30 +69,64 @@
 .flex-container .two {
     background: white;
     height: 100px;
-    flex: 1 1 auto;
-}
-
-.two h1 {
     font-size: 36px;
     color : #1f2937;
     font-weight: 900;
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
+
+
 
 .flex-container .three {
-    background: #e5e7eb;
-    height: 100px;
-    flex: 1 1 auto;
+    background: white;
+    height: 200px;
 }
 
-.flex-container .four {
-    background: white;
+
+
+.four-boxes {
+    outline: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+}
+
+.flex-container .four {  
     height:100px;
     flex: 1 1 auto;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    background-color: #e5e7eb;
+    height: 200px;
+}
+
+.speaker {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 20px;
+    background-color: #e5e7eb;
 }
 
 
-
-
+.five {  
+    flex: 1 1 auto;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #e5e7eb;
+}
 
  
 
